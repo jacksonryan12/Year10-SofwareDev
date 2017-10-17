@@ -13,7 +13,7 @@ namespace WelcomeMessage
             Console.Write("Enter name here: ");
             string name = Console.ReadLine();
             Console.WriteLine("Welcome Message for " + name);
-            Console.WriteLine("Click 'Yes' to open Message");
+            Console.WriteLine("Say 'Yes' to open Message");
             string Yes = Console.ReadLine();
             Console.WriteLine("Thots are near. Be wary, " + name);
 

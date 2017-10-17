@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.ReadLine();
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.Beep ()
+            Console.Beep();
         }
     }
 }
