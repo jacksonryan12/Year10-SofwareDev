@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeMessage", "WelcomeMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number Fun", "Number Fun\Number Fun.csproj", "{835BE4E7-1DA2-4AE3-9637-D84D572E6C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickADoor", "PickADoor\PickADoor.csproj", "{A796AD09-F651-4025-AA5E-807AE8E46CB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{835BE4E7-1DA2-4AE3-9637-D84D572E6C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835BE4E7-1DA2-4AE3-9637-D84D572E6C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835BE4E7-1DA2-4AE3-9637-D84D572E6C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A796AD09-F651-4025-AA5E-807AE8E46CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A796AD09-F651-4025-AA5E-807AE8E46CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A796AD09-F651-4025-AA5E-807AE8E46CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A796AD09-F651-4025-AA5E-807AE8E46CB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
