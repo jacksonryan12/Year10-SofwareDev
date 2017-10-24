@@ -19,8 +19,6 @@ namespace loops
             }
 
             Console.ReadLine();
-
-
             }
         }
     }
