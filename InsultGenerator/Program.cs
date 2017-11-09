@@ -13,7 +13,7 @@ namespace InsultGenerator
             Random rnd = new Random();
 
             //ask for name
-            string name = GetName
+            string name = GetName();
             //Generate Insult
             GenerateInsult(name, rnd);
         }
@@ -28,7 +28,7 @@ namespace InsultGenerator
 
         private static void GenerateInsult(string name, Random rnd)
         {
-            Console.WriteLine(name = ", you are " + GetAdjective(rnd) + GetCompoundAdjective(rnd) GetObject(rnd));
+            Console.WriteLine(name = ", you are " + GetAdjective(rnd) + GetCompoundAdjective(rnd) + GetObject(rnd));
             Menu(name, rnd);
         }
 
@@ -49,13 +49,13 @@ namespace InsultGenerator
         private static string GetCompoundAdjective(Random rnd)
         {
             string[] CompoundAdjective = { "no-good", "self-loathing ", "strokey-nonce of a ", "big-headed", "foul-mouthed", "cold-hearted", "pimply-faced", "depression-inducing" };
-            return CompoundAdjectives[rnd.Next(8)];
+            return CompoundAdjective[rnd.Next(8)];
         }
 
         //Get Object
         private static string GetObject(Random rnd)
         {
-            string[] Object = { "turtle", "cum sock ", "child", "sloth", "monkey", "stormtrooper", "ice-cream", "a stinky" };
+            string[] Object = { "turtle", "cum-sock ", "child", "sloth", "monkey", "stormtrooper", "ice-cream", "a stinky" };
             return Object[rnd.Next(8)];
         }
     }

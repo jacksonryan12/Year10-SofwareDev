@@ -29,7 +29,7 @@ namespace RockPaperScissors
 
         private static bool PlayAgain()
         {
-            Console.WriteLine("do you want to keep playing? Y/N?")
+            Console.WriteLine("do you want to keep playing? Y/N?");
                 string choice = Console.ReadLine().ToLower();
             if (choice == "y")
             {
@@ -96,7 +96,7 @@ namespace RockPaperScissors
                 }
             }
 
-            else if (userChoice == "Scissors")
+            else
             {
                 if (computerChoice == "Scissors")
                 {
@@ -134,7 +134,7 @@ namespace RockPaperScissors
             {
                 return "Paper";
             }
-            return "";
+           
         }
 
         private static string userTurn()
@@ -156,7 +156,7 @@ namespace RockPaperScissors
             {
                 return "Paper";
             }
-            return "";
+           
         }
 
         private static void printScore(ref int userScore, ref int computerScore)
