@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsultGenerator", "InsultGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeAPerson", "MakeAPerson\MakeAPerson.csproj", "{EFA555CA-C4EC-4C01-AD6C-4475F398D2B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHALLENGE 1", "CHALLENGE 1\CHALLENGE 1.csproj", "{9B9876C4-ECEC-4922-90D8-DE8C2400D7BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EFA555CA-C4EC-4C01-AD6C-4475F398D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA555CA-C4EC-4C01-AD6C-4475F398D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA555CA-C4EC-4C01-AD6C-4475F398D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9876C4-ECEC-4922-90D8-DE8C2400D7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9876C4-ECEC-4922-90D8-DE8C2400D7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9876C4-ECEC-4922-90D8-DE8C2400D7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9876C4-ECEC-4922-90D8-DE8C2400D7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
